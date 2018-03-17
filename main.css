@@ -1,0 +1,229 @@
+html { 
+  background: url(images/forest2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+header {
+    height: 100px;
+    width: auto;
+    padding-left: 10px;
+    background: linear-gradient(#badc58, #20bf6b);  
+    opacity: 0.7;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    color: #ecf0f1;
+}
+
+ 
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: auto;
+    background-color: #0fb9b1;
+    opacity: 0.7;
+    overflow: hidden;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    color: #ecf0f1;
+}
+
+.topnav a {
+    float: left;
+    color: #d1d8e0;
+    padding-bottom: 14px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background: linear-gradient(#EE5A24, #F79F1F);
+    color: #ecf0f1;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#slide {
+    background: linear-gradient(#20bf6b, #0fb9b1);
+    opacity: 0.7;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    color: #ecf0f1;
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom:15px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+#order {
+    display: flex;
+    justify-content: center;
+    }
+
+.box {
+    background: linear-gradient(#20bf6b, #0fb9b1);
+    opacity: 0.7;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    color: #ecf0f1;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 175px;
+    margin-right: 75px;
+    top: 200px;
+    border-top-right-radius: 50px 20px;
+    border-bottom-left-radius: 50px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition-property: background, border-radius;
+    transition-duration: 1s;
+}
+
+
+
+.box:hover {
+    background: linear-gradient(#EE5A24, #F79F1F);
+    border-radius: 75px;
+}
+
+.firstcontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bubbles {
+    display: flex;
+    justify-content: flex-end;
+}
+
+p {
+   font-family: 'Work Sans', sans-serif;
+   font-size: 35px; 
+   font-weight: bolder;
+   color: #ecf0f1;
+   margin-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#ready {
+    background-color: #0fb9b1;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    animation-duration: 10s;
+    animation-name: order;
+}
+
+@keyframes order {
+   
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+    
+
+.button {
+  height: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #ecf0f1;
+  background-color: #20bf6b;
+  border: none;
+  border-top-right-radius: 50px 20px;
+  border-bottom-left-radius: 50px 20px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+  box-shadow: 0 4px #999;
+  animation-duration: 18s;
+  animation-name: click;
+}
+
+.button:hover {
+    background: linear-gradient(#EE5A24, #F79F1F);
+}
+
+@keyframes click {
+    0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.button:active {
+  background-color: #0fb9b1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 110px;
+    width: auto;
+    padding-left: 10px;
+    background: linear-gradient(#20bf6b, #0fb9b1);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    color: #ecf0f1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.social {
+    padding: 30px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social:hover {
+    opacity: 0.7;
+}
